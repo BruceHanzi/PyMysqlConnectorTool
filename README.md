@@ -92,6 +92,7 @@ Follow the on-screen prompts to enter the database user, password, host, and dat
 e.g.
 
 Localhost
+10004 # port, need provide in newer version
 root
 1234567 # provided, or write 'no' to let user provide password at anytime he(she) opens this program
 BruceHanzi`s SQL Server
