@@ -69,7 +69,8 @@ You can choose to run it or not.
 If you encounter errors, try to read the error messages carefully.
 Check online resources or forums for similar issues.
 For system-related errors, you may be able to resolve them by following common troubleshooting steps.
-Program-Specific Errors
+
+### Program-Specific Errors
 
 If the error is related to the program itself, please provide the error list or traceback.
 
