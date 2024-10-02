@@ -20,6 +20,10 @@ MacOS (Upper than 10)
 Linux (Suggest Ubuntu 14 and upper)
 `
 
+Little Tip:
+
+Author BruceHanzi`s main environment is MacOS. He uses virtual Windows and Ubuntu Server to create Exe File and Linux File
+
 ## Copyright
 
 Copyright © 2024 BruceHanzi
@@ -37,7 +41,7 @@ Copyright © 2024 BruceHanzi
 ### Prerequisites
 - Ensure you have the necessary permissions to access the database.
 - Make sure the required MySQL server is running and accessible.
-- This is an open-source project, you can read source code to find any questions and submit questions you have found
+- This is an open-source project, you can read source code to find any questions and submit questions you have found.
 
 ## Installation
 
@@ -84,6 +88,14 @@ Or just double-click the file to run it. (Windows Exe and unix executable file)
 ### Log into the Database
 
 Follow the on-screen prompts to enter the database user, password, host, and database name when this program show the notebook application with a file named 'infos.txt'.
+```
+e.g.
+
+Localhost
+root
+1234567 # provided, or write 'no' to let user provide password at anytime he(she) opens this program
+BruceHanzi`s SQL Server
+```
 
 ### Using the Tool
 
@@ -91,7 +103,7 @@ Once logged in, you can start using the tool to run SQL queries.
 For help with available commands, type 'help' in the tool's console.
 To view the logs, type 'log' or 'tail'.
 You can also specify the number of log lines to display, 
-`e.g. tail 10 to show the last 10 lines of the log file.`
+`e.g. 'tail 10' to show the last 10 lines of the log file.`
 
 ## Why is the DMG File So Large?
 
@@ -134,12 +146,12 @@ your_db_name
 ### Beta Test
 Beta Test Program will running until the program is stable and useful
 
-I will release the pre-release stable version v1.24.1 in later October 2024
-Before the Release Version is released, you can use pre-beta version Pre-Beta 24.10.x.xx.b in early October 2024
-The last version of Beta is Beta (Pre-Beta) 24.10.3.25
-Then I will wait for you guys`s suggestions and bug report
-Later I will first send you pre-release stable version v1.24.b
-Finally I will send you stable version v1.24.1
+I will release the pre-release stable version v1.24.1 in later October 2024.
+Before the Release Version is released, you can use pre-beta version Pre-Beta 24.10.x.xx.b in early October 2024.
+The last version of Beta is Beta (Pre-Beta) 24.10.3.25.
+Then I will wait for you guys`s suggestions and bug report.
+Later I will first send you pre-release stable version v1.24.b.
+Finally I will send you stable version v1.24.1.
 
 ### The formula of versions:
 
@@ -164,6 +176,9 @@ Finally I will send you stable version v1.24.1
 
 
 You can reach out to me or other helpers via the following channels:
+
 GitHub: BruceCodeFarmer & BruceHanzi:https://github.com/BruceCodeFarmer
-CSDN: BruceHanzi:https://blog.csdn.net/B20111003?spm=1000.2115.3001.5343
-Thank you for using this application! If you have any questions or need further assistance, feel free to contact me through the provided channels.
+
+CSDN: BruceHanzi:https://blog.csdn.net/B20111003
+
+Thank you for using this application! If you have any questions or need further assistance, feel free to contact me through the provided channels.🤗
