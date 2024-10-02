@@ -8,11 +8,17 @@ The code is written on Mac.
 
 But this tool is supported for every system including
 
-```
-Windows
-Mac
-Linux
-```
+`
+Windows (Upper than XP)
+`
+
+`
+MacOS (Upper than 10)
+`
+
+`
+Linux (Suggest Ubuntu 14 and upper)
+`
 
 ## Copyright
 
@@ -34,11 +40,21 @@ Copyright © 2024 BruceHanzi
 
 ## Installation
 
-### Copy the Files
+### Method for Mac
+
+**Copy the Files**
 - Copy the file (SQLSearchTool) to your desired location.
 
-### Visibility of Hidden Files
+**Visibility of Hidden Files**
 - If you cannot see the SQLSearchTool or _internal files, press `Shift + Command + .` (period) in Finder to show hidden files.
+
+### Method for Windows
+
+**Just move the exe to your desired location**
+
+**Then double click it to run**
+
+
 
 ## Quick Start
 
