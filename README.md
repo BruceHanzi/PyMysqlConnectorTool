@@ -4,6 +4,16 @@
 
 This is a Python tool for database querying, using MySQL Connector for database connections. The tool was created by BruceHanzi and developed at NewSight & Nac Studio.
 
+The code is written on Mac.
+
+But this tool is supported for every system including
+
+Windows
+
+Mac
+
+Linux
+
 ## Copyright
 
 Copyright © 2024 BruceHanzi
