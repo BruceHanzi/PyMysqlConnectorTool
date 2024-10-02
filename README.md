@@ -40,7 +40,7 @@ Copyright © 2024 BruceHanzi
 
 ## Installation
 
-### Method for Mac
+### Method for Mac And Linux
 
 **Copy the Files**
 - Copy the file (SQLSearchTool) to your desired location.
@@ -59,6 +59,8 @@ Copyright © 2024 BruceHanzi
 ## Quick Start
 
 ### Run the Tool
+
+**MacOS Or Linux**
 - Open a terminal and navigate to the directory where you copied the files.
 - Run the tool by executing the following command:
 
@@ -66,7 +68,7 @@ Copyright © 2024 BruceHanzi
   ./SQLSearchTool
   ```
 
-Or just double-click the file to run it.
+Or just double-click the file to run it. (Windows Exe and unix executable file)
 
 ### Log into the Database
 
