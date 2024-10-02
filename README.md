@@ -118,6 +118,12 @@ Don't worry; once you copy the files to your system, the actual space usage will
 By creating an autorun.txt file in the ./pymysqlconnector folder, you can auto-run the code when you open this console app.
 You can choose to run it or not.
 
+### Port Selection
+
+**First Updated In Beta 24.10.3.23**
+
+By writing port at line 2 in the infos.txt from ./pymysqlconnector folder, you can choose your port and server easier than ever.
+
 ## Troubleshooting
 
 ### Common Errors
