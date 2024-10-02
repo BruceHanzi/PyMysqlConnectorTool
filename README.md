@@ -138,6 +138,7 @@ Example infos.txt content:
 
 ```
 your_db_user
+your_db_port
 your_db_host
 your_db_password (If you want to keep safe, you can write 'no' at this line)
 your_db_name
