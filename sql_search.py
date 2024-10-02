@@ -12,21 +12,22 @@ RED = '\033[91m'
 GREEN = '\033[92m'
 YELLOW = '\033[93m'
 RESET = '\033[0m'
-version = "beta 24.10.2.21"
+version = "beta 24.10.3.23"
 
 def read_infos_file():
     try:
         with open('infos.txt', 'r') as file:
             lines = file.readlines()
-            if len(lines) < 4:
+            if len(lines) < 5:
                 print("infos.txt does not contain enough information. It should have at least 3 lines: server address, username, and server name.")
                 os.system('open -t infos.txt')
                 logging.info(f"infos.txt does not contian enough information")
             server_address = lines[0].strip()
-            username = lines[1].strip()
-            password = lines[2].strip()
-            server_name = lines[3].strip()
-            return server_address, username, password, server_name
+            port = int(lines[1].strip())
+            username = lines[2].strip()
+            password = lines[3].strip()
+            server_name = lines[4].strip()
+            return server_address, port, username, password, server_name
     except FileNotFoundError:
         print(RED + "infos.txt not found. Please create the file and add the necessary information at users/you/.pymysqlconnector" + RESET)
         print(RED + "if you cannot see the folder, please press command+shift+." + RESET)
@@ -107,7 +108,7 @@ def main():
         print(f"Program version: {version} for Mac with Apple Silicon or Intel Processor")
 
         # 读取 infos.txt 文件
-        server_address, username, password, server_name = read_infos_file()
+        server_address, port, username, password, server_name = read_infos_file()
 
         # 使用 getpass 获取密码
         if password == 'no':
@@ -117,6 +118,7 @@ def main():
             # 连接到 MySQL 数据库
             mydb = mysql.connector.connect(
                 host=server_address,
+                port=port,
                 user=username,
                 passwd=password
             )
