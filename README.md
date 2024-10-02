@@ -161,13 +161,13 @@ Then I will wait for you guys`s suggestions and bug report.
 Later I will first send you pre-release stable version v1.24.b.
 Finally I will send you stable version v1.24.1.
 
-### The formula of versions:
+## The formula of versions:
 
-#### Beta
+### Beta
 
 `24(year, only 2024).10(month, only 10).3(date, only 2, 3).specific version`
 
-#### pre-release
+### pre-release
 
 **beta**
 
@@ -177,7 +177,7 @@ Finally I will send you stable version v1.24.1.
 
 `v1(main version, change of it is add 1, like 1 to 2, when there are some big changes in my program, it will be changed).24(year).specific version.b(beta)`
 
-#### stable
+### stable
 
 `v1(main version, change of it is add 1, like 1 to 2, when there are some big changes in my program, it will be changed).24(year).specific version`
 
