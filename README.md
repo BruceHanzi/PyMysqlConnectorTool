@@ -8,11 +8,11 @@ The code is written on Mac.
 
 But this tool is supported for every system including
 
+```
 Windows
-
 Mac
-
 Linux
+```
 
 ## Copyright
 
