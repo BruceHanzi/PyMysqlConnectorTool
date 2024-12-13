@@ -6,18 +6,9 @@ This is a Python tool for database querying, using MySQL Connector for database 
 
 The code is written on Mac.
 
-But this tool is supported for every system including
-
-`
-Windows (Upper than XP)
-`
-
+But this tool is supported for only MacOS system
 `
 MacOS (Upper than 10)
-`
-
-`
-Linux (Suggest Ubuntu 14 and upper)
 `
 
 Little Tip:
