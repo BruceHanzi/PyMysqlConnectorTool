@@ -7,6 +7,7 @@ This is a Python tool for database querying, using MySQL Connector for database 
 The code is written on Mac.
 
 But this tool is supported for only MacOS system
+
 `
 MacOS (Upper than 10)
 `
@@ -36,7 +37,7 @@ Copyright © 2024 BruceHanzi
 
 ## Installation
 
-### Method for Mac And Linux
+### Method for Mac
 
 **Copy the Files**
 - Copy the file (SQLSearchTool) to your desired location.
@@ -44,17 +45,11 @@ Copyright © 2024 BruceHanzi
 **Visibility of Hidden Files**
 - If you cannot see the SQLSearchTool or _internal files, press `Shift + Command + .` (period) in Finder to show hidden files.
 
-### Method for Windows
-
-**Just move the exe to your desired location**
-
-**Then double click it to run**
-
 ## Quick Start
 
 ### Run the Tool
 
-**MacOS Or Linux**
+**MacOS**
 - Open a terminal and navigate to the directory where you copied the files.
 - Run the tool by executing the following command:
 
@@ -74,7 +69,7 @@ If you want to make sure that you can use this tool with less premission denined
 sudo ./SQLSearchTool
 ```
 
-Or just double-click the file to run it. (Windows Exe and unix executable file)
+Or just double-click the file to run it.
 
 ### Log into the Database
 
