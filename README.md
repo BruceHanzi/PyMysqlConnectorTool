@@ -171,7 +171,7 @@ Finally I will send you stable version v1.24.1.
 
 You can reach out to me or other helpers via the following channels:
 
-GitHub: BruceCodeFarmer & BruceHanzi:https://github.com/BruceCodeFarmer
+GitHub: BruceCodeFarmer & BruceHanzi:https://github.com/BruceHanzi
 
 CSDN: BruceHanzi:https://blog.csdn.net/B20111003
 
